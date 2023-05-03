@@ -1,3 +1,4 @@
+require('dotenv').config();  // Loading CLOUDINARY_URL variable from environment variable or .env file
 const cloudinary = require('cloudinary').v2;
 
 /* 
